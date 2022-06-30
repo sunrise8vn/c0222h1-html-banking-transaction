@@ -9,3 +9,16 @@ class Customer {
         this.isDeleted = isDeleted;
     }
 }
+
+class Deposit {
+    constructor(id, customerId, transactionAmount, createdAt, createdBy, updatedAT, updatedBy, isDeleted) {
+        this.id = id;
+        this.customerId = customerId;
+        this.transactionAmount = transactionAmount;
+        this.createdAt = createdAt;
+        this.createdBy = createdBy;
+        this.updatedAt = updatedAT;
+        this.updatedBy = updatedBy;
+        this.isDeleted = isDeleted;
+    }
+}
