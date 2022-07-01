@@ -32,3 +32,10 @@ label.error {
     margin-top: 5px;
     color: #842029;
 }
+
+header {
+    background: #299be4;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px 3px 0 0;
+}
